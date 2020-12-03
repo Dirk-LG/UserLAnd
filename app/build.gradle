@@ -13,7 +13,7 @@ apply plugin: 'jacoco'
 apply plugin: 'de.undercouch.download'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 28
 
     defaultConfig {
         // Version code is generated as time since June 1, 2019. These allows for constantly
@@ -22,7 +22,7 @@ android {
 
         applicationId "tech.ula"
         minSdkVersion 21
-        targetSdkVersion 29
+        targetSdkVersion 28
         versionCode vcode
         versionName "2.7.3"
         
